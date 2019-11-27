@@ -1,8 +1,6 @@
 package at.htl.woodManagement.business;
 
-import at.htl.woodManagement.model.Sector;
-import at.htl.woodManagement.model.Tree;
-import at.htl.woodManagement.model.TreeType;
+import at.htl.woodManagement.model.*;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.context.Initialized;
@@ -26,7 +24,11 @@ public class InitBean {
     private void init(@Observes @Initialized(ApplicationScoped.class) Object init){
         System.out.println("My miniproject");
 
-        Sector s = new Sector("Sektor A");
+        Owner o = new Owner("Hans Herbert", "Wiesenring 4, Pasching", "133");
+        em.persist(o);
+        Forest f = new Forest(o);
+        em.persist(f);
+        Sector s = new Sector("Sektor A", f);
         TreeType t = new TreeType("Fichte");
         em.persist(t);
         em.persist(s);
