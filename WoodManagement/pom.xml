@@ -7,6 +7,10 @@
     <groupId>at.htl</groupId>
     <artifactId>woodmanagement</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <maven.compile.source>11</maven.compile.source>
+        <mave.compile.target>11</mave.compile.target>
+    </properties>
     <packaging>war</packaging>
 
     <dependencies>
