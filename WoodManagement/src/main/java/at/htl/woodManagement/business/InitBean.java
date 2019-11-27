@@ -1,5 +1,6 @@
 package at.htl.woodManagement.business;
 
+import at.htl.woodManagement.model.Sector;
 import at.htl.woodManagement.model.Tree;
 import at.htl.woodManagement.model.TreeType;
 
@@ -25,9 +26,11 @@ public class InitBean {
     private void init(@Observes @Initialized(ApplicationScoped.class) Object init){
         System.out.println("My miniproject");
 
+        Sector s = new Sector("Sektor A");
         TreeType t = new TreeType("Fichte");
         em.persist(t);
-        Tree tree = new Tree(t);
+        em.persist(s);
+        Tree tree = new Tree(t, s);
         em.persist(tree);
     }
 }

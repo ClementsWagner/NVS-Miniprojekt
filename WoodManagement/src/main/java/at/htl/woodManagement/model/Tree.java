@@ -11,7 +11,8 @@ public class Tree {
     private Date cutDate;
     @ManyToOne
     private TreeType treeType;
-
+    @ManyToOne
+    private Sector sector;
     //region Konstruktoren
 
     public Tree() {
@@ -19,6 +20,11 @@ public class Tree {
 
     public Tree(TreeType treeType) {
         this.treeType = treeType;
+    }
+
+    public Tree(TreeType treeType, Sector sector) {
+        this.treeType = treeType;
+        this.sector = sector;
     }
 
     //endregion
@@ -44,6 +50,13 @@ public class Tree {
         this.treeType = treeType;
     }
 
-    //endregion
+    public Sector getSector() {
+        return sector;
+    }
+
+    public void setSector(Sector sector) {
+        this.sector = sector;
+    }
+//endregion
 
 }

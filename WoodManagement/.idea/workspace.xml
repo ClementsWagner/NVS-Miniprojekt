@@ -7,9 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dbde182-9ae9-445e-84a3-af0bf6960160" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/model/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/model/Sector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/business/InitBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/business/InitBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/model/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/model/Tree.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +254,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574874261253</updated>
       <workItem from="1574874267243" duration="1003000" />
-      <workItem from="1574875584772" duration="5974000" />
+      <workItem from="1574875584772" duration="6773000" />
     </task>
     <servers />
   </component>
