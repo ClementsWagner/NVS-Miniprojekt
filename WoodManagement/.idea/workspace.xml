@@ -7,12 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1dbde182-9ae9-445e-84a3-af0bf6960160" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/model/TreeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/woodmanagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/model/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/business/InitBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/woodManagement/business/InitBean.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,6 +37,18 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="db@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="TREE: table" type="7a557cd6:DerbyImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="APP: schema" type="12aa88c4:DerbyImplModel$Schema" />
+        <item name="TREETYPE: table" type="7a557cd6:DerbyImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -245,7 +253,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574874261253</updated>
       <workItem from="1574874267243" duration="1003000" />
-      <workItem from="1574875584772" duration="5027000" />
+      <workItem from="1574875584772" duration="5974000" />
     </task>
     <servers />
   </component>

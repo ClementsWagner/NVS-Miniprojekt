@@ -1,5 +1,6 @@
 package at.htl.woodManagement.business;
 
+import at.htl.woodManagement.model.Tree;
 import at.htl.woodManagement.model.TreeType;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -26,5 +27,7 @@ public class InitBean {
 
         TreeType t = new TreeType("Fichte");
         em.persist(t);
+        Tree tree = new Tree(t);
+        em.persist(tree);
     }
 }
